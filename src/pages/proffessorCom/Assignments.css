@@ -1,0 +1,144 @@
+.assign {
+  height: 100vh;
+  width: 1920px;
+  overflow: scroll;
+}
+
+@media screen and (min-width: 1300px) and (min-height: 900px) {
+  .assign {
+    width: 100vw;
+    overflow: hidden;
+  }
+}
+
+.assign .tableHead {
+  margin-top: 2%;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  width: 60%;
+  font-family: 'doHyeon';
+  font-size: 30pt;
+}
+
+.assign h3 {
+  margin: 0% 0% 3% 3%;
+}
+
+.input {
+  width: 50%;
+  margin: 0% 0% 0% 5%;
+  display: inline-block;
+}
+
+.buttonList {
+  background-image: url("./image/side_background.png");
+  background-size: contain;
+  /* position: absolute; */
+  float: right;
+  color: #f0f0f0;
+  height: 1080px;
+  width: 520px;
+  right: 0%;
+  top: 0%;
+}
+
+.buttonList input[type="text"] {
+  height: 3vh;
+  width: 100%;
+  margin: 0% 0% 10% 0%;
+}
+
+.buttonList input[type="date"] {
+  height: 3vh;
+  width: 100%;
+  margin: 0% 0% 10% 0%;
+}
+
+.buttonList button {
+  margin-bottom: 10%;
+  display: block;
+}
+
+.assign p {
+  display: inline;
+  font-size: large;
+  margin-right: 12px;
+}
+
+.assign span {
+  word-break: keep-all;
+}
+
+.assign .p-head {
+  width: 95%;
+  padding: 1%;
+  transition: background-color 1s;
+}
+
+.assign .p-head:hover {
+  background-color: gold;
+}
+
+.assign .p-head span {
+  display: inline-block;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.assign .p-head:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.assign .p-head:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.assign .p-head:hover {
+  background-color: gold;
+}
+
+.assign .overScroll {
+  text-align: center;
+  height: 80vh;
+  overflow: overlay;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+.assign .th {
+  color: #000;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.arrow {
+  display: inline-block;
+  height: 172px;
+  width: 11%;
+  background-image: url("./image/arrow.gif");
+  position: absolute;
+  right: 520px;
+  top: 45vh;
+  background-size: cover;
+  margin-bottom: 20%;
+  margin-left: 9%;
+  scale: 50%;
+  opacity: .2;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* .assign .p-head span:nth-child(2) {
+    width: 20%;
+  } */
+
+.subPaper h4 {
+  padding: 1.5%;
+  margin: 0%;
+}

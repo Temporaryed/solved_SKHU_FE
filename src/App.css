@@ -1,0 +1,28 @@
+.test {
+  animation: fadein 0.5s;
+}
+@keyframes fadein {
+  /* 효과를 동작시간 동안 0 ~ 1까지 */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  overflow: hidden;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+	font-family: "doHyeon";
+	src: url(./fonts/Do_Hyeon/DoHyeon-Regular.ttf);
+}
+:root{
+  --font-doHyeon: "doHyeon";
+}
