@@ -169,13 +169,13 @@ function AlgoPage(props) {
             style={{
               borderRadius: '0 10px 10px 0',
               boxShadow: '-4px 12px 30px -16px grey',
-              background: '#666',
-              color: "#aaa",
+              // background: '#666',
+              // color: "#aaa",
             }}
             onClick={(e) => {
               e.stopPropagation()
-              // setUserOrRank(2)
-              alert("현재 solved.ac 기능 오류로 비활성화되었습니다.\n빠른 시일 내에 복구하갰습니다!")
+              setUserOrRank(2)
+              // alert("현재 solved.ac 기능 오류로 비활성화되었습니다.\n빠른 시일 내에 복구하갰습니다!")
             }}
           >
             랭크별
@@ -200,10 +200,11 @@ function AlgoPage(props) {
               marginBottom: '-4vh',
               textShadow: '2px 2px 8px black',
               }}>
-                유저별 추<span onClick={(e) => {
-              e.stopPropagation()
-              setUserOrRank(2)
-            }}>천</span></h1>
+                유저별 추<span
+              // onClick={(e) => {
+              // e.stopPropagation()
+              // setUserOrRank(2)}}
+            >천</span></h1>
 
             <div className="ratingProblem">
               <div
