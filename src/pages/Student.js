@@ -62,7 +62,7 @@ function Student(props) {
             alert("입력하신 ID는 성공회대학교에 등록되지 않았습니다. ");
             return;
           }
-          if (change) alert(userName + "님 어서오세요");
+          if (change) alert("유저 전환: " + userName);
           setChange(true);
         });
     } catch (error) {
